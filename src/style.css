@@ -131,6 +131,10 @@ h1 {
   background: rgba(255, 154, 158, 0.1);
 }
 
+.nome {
+  font-weight: bold;
+}
+
 .card h2 {
   margin: 0;
   
