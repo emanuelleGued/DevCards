@@ -61,7 +61,7 @@ cd DevCards
 3. **Atribuir a Issue a Você** (se necessário)
    - Na issue, clique em "Assign yourself"
 
-### 🌿 **ETAPA 3: Trabalhando na Sua Branch**
+### **ETAPA 3: Trabalhando na Sua Branch**
 
 1. **Atualizar a Branch dev Local**
 ```bash
