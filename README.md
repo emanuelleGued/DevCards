@@ -1,5 +1,8 @@
 # DevCards - Minicurso Git/GitHub
 
+## Slides do minicurso
+[Minicurso Git/GitHub](https://www.canva.com/design/DAGkSRP0LUI/ouSMNMFtEqKbuL_llIP_4w/edit?utm_content=DAGkSRP0LUI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Objetivo do Projeto
 
 Criar uma página web colaborativa onde cada participante do minicurso adicionará seu próprio **card de perfil tech**, praticando o fluxo completo de trabalho com Git e GitHub em um cenário real de desenvolvimento colaborativo.
