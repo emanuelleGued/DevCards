@@ -3,6 +3,9 @@
 ## Slides do minicurso
 [Minicurso Git/GitHub](https://www.canva.com/design/DAGkSRP0LUI/ouSMNMFtEqKbuL_llIP_4w/edit?utm_content=DAGkSRP0LUI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+## Notion Git/Git Hub:
+[Notion](https://www.notion.so/Git-na-pr-tica-1c2acd2f0b358081a321ec87fc40edd1?source=copy_link)
+
 ## Objetivo do Projeto
 
 Criar uma página web colaborativa onde cada participante do minicurso adicionará seu próprio **card de perfil tech**, praticando o fluxo completo de trabalho com Git e GitHub em um cenário real de desenvolvimento colaborativo.
