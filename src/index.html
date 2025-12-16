@@ -1,64 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevCards - Perfis Tech da Turma</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-  <header>
-    <h1>DevCards da Turma</h1>
-    <p class="subtitle">Perfis tech dos alunos do Minicurso Git/GitHub - Turma 2025</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevCards - Perfis Tech da Turma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>DevCards da Turma</h1>
+      <p class="subtitle">
+        Perfis tech dos alunos do Minicurso Git/GitHub - Turma 2025
+      </p>
+    </header>
 
-  <div class="container">
-    
-    <div class="card modelo">
-      <div class="card-header">
-        <i class="fas fa-user-plus"></i>
-        <h2>Seu Nome Aqui</h2>
+    <div class="container">
+      <div class="card modelo">
+        <div class="card-header">
+          <i class="fas fa-user-plus"></i>
+          <h2>Seu Nome Aqui</h2>
+        </div>
+        <div class="info">
+          <i class="fas fa-laptop-code"></i> Área Favorita:
+          [Frontend/Backend/Dados]
+        </div>
+        <div class="info">
+          <i class="fas fa-code"></i> Linguagem: [Python/JavaScript/Java]
+        </div>
+        <div class="info">
+          <i class="fas fa-bullseye"></i> Meta: [Full-Stack Dev]
+        </div>
+        <div class="info">
+          <i class="fas fa-star"></i> Projeto dos Sonhos: [descrição breve]
+        </div>
+        <div class="tag"><i class="fas fa-tag"></i> [sua_tag]</div>
       </div>
-      <div class="info"><i class="fas fa-laptop-code"></i> Área Favorita: [Frontend/Backend/Dados]</div>
-      <div class="info"><i class="fas fa-code"></i> Linguagem: [Python/JavaScript/Java]</div>
-      <div class="info"><i class="fas fa-bullseye"></i> Meta: [Full-Stack Dev]</div>
-      <div class="info"><i class="fas fa-star"></i> Projeto dos Sonhos: [descrição breve]</div>
-      <div class="tag"><i class="fas fa-tag"></i> [sua_tag]</div>
+
+      <!-- OS NOVOS CARDS DOS ALUNOS SERÃO ADICIONADOS AQUI -->
+
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-user"></i>
+          <p>Mateus Miranda da Silva</p>
+        </div>
+        <div class="info">
+          <i class="fas fa-laptop-code"></i> Área Favorita: [Frontend]
+        </div>
+        <div class="info">
+          <i class="fas fa-code"></i> Linguagem: [Python, JavaScript]
+        </div>
+        <div class="info">
+          <i class="fas fa-bullseye"></i> Meta: [Desenvolvedor Frontend]
+        </div>
+        <div class="info">
+          <i class="fas fa-star"></i> Projeto dos Sonhos: [Projeto proprio
+          inovador]
+        </div>
+        <div class="tag"><i class="fas fa-tag"></i> [Desenrolado]</div>
+      </div>
     </div>
 
-    <!-- OS NOVOS CARDS DOS ALUNOS SERÃO ADICIONADOS AQUI -->
-   
+    <footer>
+      <div class="footer-content">
+        <p>
+          <i class="fas fa-graduation-cap"></i> Projeto colaborativo - Minicurso
+          Git & GitHub 2025
+        </p>
+        <p>
+          <i class="fas fa-code-branch"></i> Total de contribuições:
+          <span id="contributions">15</span> cards
+        </p>
+        <p>
+          <i class="fas fa-heart"></i> Feito com ❤️ pela turma de
+          desenvolvimento
+        </p>
+      </div>
+    </footer>
 
-  </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".card:not(.modelo)");
+        document.getElementById("contributions").textContent = cards.length;
 
-  <footer>
-    <div class="footer-content">
-      <p><i class="fas fa-graduation-cap"></i> Projeto colaborativo - Minicurso Git & GitHub 2025</p>
-      <p><i class="fas fa-code-branch"></i> Total de contribuições: <span id="contributions">15</span> cards</p>
-      <p><i class="fas fa-heart"></i> Feito com ❤️ pela turma de desenvolvimento</p>
-    </div>
-  </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const cards = document.querySelectorAll('.card:not(.modelo)');
-      document.getElementById('contributions').textContent = cards.length;
-      
-      const titles = document.querySelectorAll('.card h2');
-      titles.forEach(title => {
-        const originalText = title.textContent;
-        title.textContent = '';
-        let i = 0;
-        const typeWriter = () => {
-          if (i < originalText.length) {
-            title.textContent += originalText.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-          }
-        };
+        const titles = document.querySelectorAll(".card h2");
+        titles.forEach((title) => {
+          const originalText = title.textContent;
+          title.textContent = "";
+          let i = 0;
+          const typeWriter = () => {
+            if (i < originalText.length) {
+              title.textContent += originalText.charAt(i);
+              i++;
+              setTimeout(typeWriter, 50);
+            }
+          };
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
