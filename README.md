@@ -167,3 +167,7 @@ git checkout dev
 # Baixe as alterações mescladas
 git pull origin dev
 ```
+
+## Projeto Final
+<img width="820" height="789" alt="image" src="https://github.com/user-attachments/assets/d127a182-1e16-4961-8fb0-b17765c26b86" />
+
