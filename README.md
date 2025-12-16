@@ -92,13 +92,13 @@ git checkout -b feat/add-card-seunome dev
 <div class="card">
   <div class="card-header">
     <i class="fas fa-user"></i>
-    <h2>SEU NOME COMPLETO</h2>
+    <h2>Seu nome</h2>
   </div>
-  <div class="info"><i class="fas fa-laptop-code"></i> Área Favorita: [ex: Frontend, Backend, Dados]</div>
-  <div class="info"><i class="fas fa-code"></i> Linguagem: [ex: Python, JavaScript, Java]</div>
-  <div class="info"><i class="fas fa-bullseye"></i> Meta: [ex: Desenvolvedor Full-Stack]</div>
-  <div class="info"><i class="fas fa-star"></i> Projeto dos Sonhos: [descrição breve]</div>
-  <div class="tag"><i class="fas fa-tag"></i> [uma palavra que te descreva]</div>
+  <div class="info"><i class="fas fa-laptop-code"></i> Área Favorita: Back-end</div>
+  <div class="info"><i class="fas fa-code"></i> Linguagem: Java</div>
+  <div class="info"><i class="fas fa-bullseye"></i>Meta: Full-Stack Dev</div>
+  <div class="info"><i class="fas fa-star"></i> Projeto dos Sonhos: Criar um aplicativo de AR que interaja com o mundo real</div>
+  <div class="tag"><i class="fas fa-tag"></i> Disciplina 🧠</div>
 </div>
 ```
 
