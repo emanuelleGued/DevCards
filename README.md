@@ -1,5 +1,11 @@
 # DevCards - Minicurso Git/GitHub
 
+## Slides do minicurso
+[Minicurso Git/GitHub](https://www.canva.com/design/DAGkSRP0LUI/ouSMNMFtEqKbuL_llIP_4w/edit?utm_content=DAGkSRP0LUI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## Notion Git/Git Hub:
+[Notion](https://www.notion.so/Git-na-pr-tica-1c2acd2f0b358081a321ec87fc40edd1?source=copy_link)
+
 ## Objetivo do Projeto
 
 Criar uma página web colaborativa onde cada participante do minicurso adicionará seu próprio **card de perfil tech**, praticando o fluxo completo de trabalho com Git e GitHub em um cenário real de desenvolvimento colaborativo.
@@ -55,7 +61,7 @@ cd DevCards
 3. **Atribuir a Issue a Você** (se necessário)
    - Na issue, clique em "Assign yourself"
 
-### 🌿 **ETAPA 3: Trabalhando na Sua Branch**
+### **ETAPA 3: Trabalhando na Sua Branch**
 
 1. **Atualizar a Branch dev Local**
 ```bash
@@ -86,13 +92,13 @@ git checkout -b feat/add-card-seunome dev
 <div class="card">
   <div class="card-header">
     <i class="fas fa-user"></i>
-    <h2>SEU NOME COMPLETO</h2>
+    <h2>Seu nome</h2>
   </div>
-  <div class="info"><i class="fas fa-laptop-code"></i> Área Favorita: [ex: Frontend, Backend, Dados]</div>
-  <div class="info"><i class="fas fa-code"></i> Linguagem: [ex: Python, JavaScript, Java]</div>
-  <div class="info"><i class="fas fa-bullseye"></i> Meta: [ex: Desenvolvedor Full-Stack]</div>
-  <div class="info"><i class="fas fa-star"></i> Projeto dos Sonhos: [descrição breve]</div>
-  <div class="tag"><i class="fas fa-tag"></i> [uma palavra que te descreva]</div>
+  <div class="info"><i class="fas fa-laptop-code"></i> Área Favorita: Back-end</div>
+  <div class="info"><i class="fas fa-code"></i> Linguagem: Java</div>
+  <div class="info"><i class="fas fa-bullseye"></i>Meta: Full-Stack Dev</div>
+  <div class="info"><i class="fas fa-star"></i> Projeto dos Sonhos: Criar um aplicativo de AR que interaja com o mundo real</div>
+  <div class="tag"><i class="fas fa-tag"></i> Disciplina 🧠</div>
 </div>
 ```
 
